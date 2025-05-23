@@ -1,0 +1,31 @@
+# === ENVIRONNEMENT VIRTUEL ===
+.venv/
+env/
+venv/
+
+# === CACHES PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+
+# === OUTILS JUPYTER ===
+# (checkpoint automatique par Jupyter Notebook)
+.ipynb_checkpoints/
+
+# === DONNÉES & ARTéFACTS ===
+data/
+outputs/
+*.csv
+*.npz
+*.pt
+*.h5
+
+# === LOGS & DIVERS ===
+*.log
+*.tmp
+.DS_Store
+
+# === IDE JETBRAINS ===
+.idea/
