@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+torch
+transformers
+spacy
+unidecode
+langdetect
+tqdm
+gensim
+umap-learn
+matplotlib
+seaborn
+joblib
