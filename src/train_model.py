@@ -1,7 +1,3 @@
-"""
-Entraîne MiniLM + SVM et enregistre le modèle (joblib).
-Usage : python -m src.train_model
-"""
 from pathlib import Path
 import pandas as pd, joblib
 from sentence_transformers import SentenceTransformer

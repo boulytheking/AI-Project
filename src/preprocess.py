@@ -1,9 +1,3 @@
-# src/preprocess.py
-"""
-Pré-traitement texte pour la détection IA vs humain.
-Usage (CLI) :
-python -m src.preprocess --input data/train_essays.csv --output outputs/
-"""
 from __future__ import annotations
 import argparse, html, re
 from pathlib import Path
@@ -13,7 +7,7 @@ from unidecode import unidecode
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 
-# (optionnel) détection de langue
+# détection de langue
 from langdetect import detect  # pip install langdetect
 import spacy
 
